@@ -20,10 +20,10 @@ This extension communicates with a local Node.js backend that securely uses **yo
 
 ### 1. Clone the Repository
 
-\`\`\`bash
+```bash
 git clone https://github.com/YOUR_USERNAME/overleaf-ai-extension.git
 cd overleaf-ai-extension
-\`\`\`
+```
 
 ---
 
@@ -121,6 +121,4 @@ Want to help improve it? Pull requests are welcome!
 MIT License — free to use, remix, and build on  
 Let’s make LaTeX more accessible for everyone 💙
 
----
 
-Made with ☕ and \\\\textbf{love} by [Your Name]

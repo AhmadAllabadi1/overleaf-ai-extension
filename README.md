@@ -21,7 +21,7 @@ This extension communicates with a local Node.js backend that securely uses **yo
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/overleaf-ai-extension.git
+git clone https://github.com/AhmadAllabadi1/overleaf-ai-extension.git
 cd overleaf-ai-extension
 ```
 
@@ -30,40 +30,40 @@ cd overleaf-ai-extension
 ### 2. Set Up Your OpenAI API Key
 
 1. Navigate to the backend folder:
-   \`\`\`bash
+   ```bash
    cd backend
-   \`\`\`
+   ```
 
-2. Create a \`.env\` file with your OpenAI key:
-   \`\`\`env
+2. Create a `.env` file with your OpenAI key:
+   ```env
    OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-   \`\`\`
+   ```
 
 3. Install dependencies:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 4. Start the backend server:
-   \`\`\`bash
+   ```bash
    node server.js
-   \`\`\`
+   ```
 
 The backend will now run at:  
-👉 \`http://localhost:8000/generate\`
+👉 `http://localhost:8000/generate`
 
 ---
 
 ### 3. Load the Chrome Extension
 
 1. Open Chrome and go to:  
-   👉 \`chrome://extensions/\`
+   👉 `chrome://extensions/`
 
 2. Enable **Developer Mode** (top right)
 
 3. Click **"Load unpacked"**
 
-4. Select the \`extension/\` folder inside this repo
+4. Select the `extension/` folder inside this repo
 
 ✅ You should now see the Overleaf AI Assistant icon in your Chrome toolbar
 
@@ -76,9 +76,9 @@ The backend will now run at:
 3. Click the extension icon or on-screen button  
 4. Enter a prompt like:
 
-   \`\`\`
+   ```
    Create a LaTeX equation for the quadratic formula
-   \`\`\`
+   ```
 
 5. The generated LaTeX code will be inserted directly into your Overleaf editor ✨
 

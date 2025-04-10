@@ -97,9 +97,9 @@ The backend will now run at:
 
 | Issue                        | Solution                                                                 |
 |-----------------------------|---------------------------------------------------------------------------|
-| 🔥 Extension not working     | Make sure the backend is running on \`http://localhost:8000\`              |
-| 🚫 Missing API key error     | Ensure \`.env\` exists and contains \`OPENAI_API_KEY=...\`                    |
-| ❌ CORS or fetch error       | Confirm the extension is allowed to access \`localhost\`                   |
+| 🔥 Extension not working     | Make sure the backend is running on `http://localhost:8000`              |
+| 🚫 Missing API key error     | Ensure `.env` exists and contains `OPENAI_API_KEY=...`                    |
+| ❌ CORS or fetch error       | Confirm the extension is allowed to access `localhost`                   |
 | 🤖 OpenAI not responding     | Double-check your key and usage at https://platform.openai.com/account/usage |
 
 ---
@@ -109,10 +109,10 @@ The backend will now run at:
 Want to help improve it? Pull requests are welcome!
 
 - Add a visual popup UI for prompt input
-- Let users select model (\`gpt-3.5\`, \`gpt-4\`)
+- Let users select model (`gpt-3.5`, `gpt-4`)
 - Create reusable LaTeX templates (e.g., tables, math, TikZ)
 - Add support for remote (hosted) backends
-- UI for storing API key in browser storage (instead of \`.env\`)
+- UI for storing API key in browser storage (instead of `.env`)
 
 ---
 
